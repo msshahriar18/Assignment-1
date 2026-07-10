@@ -14,6 +14,7 @@
     padding: 12px 24px;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 
@@ -45,4 +46,99 @@ header {
     font-size: 16px;
     color: #575757;
     text-decoration: none;
+}
+
+.hero-container {
+    background-image: url(./assets/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 786px;
+    padding: 90px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: (123, 0, 0, 1);
+}
+
+.hero-content {
+    max-width: 75%;
+    text-align: center;
+}
+
+.hero-content h2 {
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.hero-content h2 span {
+    font-style: italic;
+}
+
+.hero-content p {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 100;
+    padding-top: 10px;
+}
+
+.registration-btn a {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 50px;
+    font-size: 24px;
+}
+
+
+.meet-speaker {
+    max-width: 1440px;
+    padding: 80px 60px;
+}
+
+.meet-speaker h2 {
+    font-size: 56px;
+    color: #000102;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card-parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+}
+
+
+.meet-speaker .card-container {
+
+    border: #E5E7EB 1px solid;
+    border-radius: 10px;
+}
+
+
+
+.meet-speaker .card-container .card-content {
+    padding: 24px;
+}
+
+.meet-speaker .card-container .card-content a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #2563EB;
+}
+
+.meet-speaker .card-container .card-content h3 {
+    font-size: 20px;
+    color: #0D1B2A;
+    font-weight: 400;
+    padding: 3px 0;
+}
+
+.meet-speaker .card-container .card-content p {
+    font-size: 14px;
+    color: #575757;
+    font-weight: 400;
 }
