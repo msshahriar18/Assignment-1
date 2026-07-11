@@ -124,6 +124,7 @@ header {
 .meet-speaker {
     max-width: 1440px;
     padding: 80px 60px;
+    margin: auto;
 }
 
 .meet-speaker h2 {
@@ -172,6 +173,10 @@ header {
     font-weight: 400;
 }
 
+.meet-speaker .card-container .card img {
+    width: 100%;
+}
+
 /* Pricing section */
 
 
@@ -202,6 +207,7 @@ header {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 24px;
     padding-top: 48px;
+    margin: auto;
 }
 
 .pricing .card-container .card {
