@@ -1,3 +1,6 @@
+/* Global Style */
+
+
 * {
     margin: 0;
     padding: 0;
@@ -17,6 +20,21 @@
     cursor: pointer;
 }
 
+.outline-btn {
+    color: #1D4ED8;
+    background-color: white;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 24px;
+    border: 1px solid #1D4ED8;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+/* Header section */
 
 header {
     max-width: 1551px;
@@ -47,6 +65,9 @@ header {
     color: #575757;
     text-decoration: none;
 }
+
+/* Hero section  */
+
 
 .hero-container {
     background-image: url(./assets/banner.jpg);
@@ -90,6 +111,9 @@ header {
     padding-bottom: 50px;
     font-size: 24px;
 }
+
+
+/* Meet speaker section Style */
 
 
 .meet-speaker {
@@ -141,4 +165,204 @@ header {
     font-size: 14px;
     color: #575757;
     font-weight: 400;
+}
+
+/* Pricing section */
+
+
+.pricing {
+    width: 1440;
+    margin: auto;
+    padding: 0px 60px 60px 80px;
+    margin: 33px
+}
+
+.pricing h2 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    color: #0D1B2A;
+}
+
+.pricing p {
+    font: 16px;
+    color: #575757;
+    font-weight: regular;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.pricing .card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+    padding-top: 48px;
+}
+
+.pricing .card-container .card {
+    border: 1px solid #e5e7eb;
+    padding: 48px 32px;
+    border-radius: 20px;
+}
+
+.pricing .card-container .card h4 {
+    text-align: left;
+    color: #888888;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.pricing .card-container .card h3 {
+    text-align: left;
+    color: #0D1B2A;
+    font-size: 44px;
+    font-weight: bold;
+}
+
+.pricing .card-container .card p {
+    text-align: left;
+    color: #0D1B2A;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.pricing .card-container .card hr {
+    border: none;
+    margin: 20px 0px;
+    border-top: 1px solid #E5E7EB;
+
+}
+
+.pricing .card-container .card ul li {
+    list-style-position: inside;
+}
+
+.pricing .card-container .card ul li::marker {
+    color: #2563EB;
+}
+
+.pricing ul li {
+    color: #333333;
+    padding: 5px 0px;
+    font-weight: light;
+}
+
+
+
+/* FAQ Section Styles */
+.faq-section {
+    padding: 80px 20px;
+    background-color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    /* Standard clean tech font */
+}
+
+.faq-container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.faq-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #0f172a;
+    /* Dark navy color matching your Pro card */
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.faq-subtitle {
+    font-size: 16px;
+    color: #64748b;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.faq-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.faq-card {
+    background-color: #f8fafc;
+    /* Very light subtle gray background */
+    padding: 30px;
+    border-radius: 8px;
+    border-left: 4px solid #2563eb;
+    /* Royal blue accent line matching your action buttons */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.faq-question {
+    font-size: 18px;
+    font-weight: 600;
+    color: #0f172a;
+    margin-bottom: 12px;
+    line-height: 1.4;
+}
+
+.faq-answer {
+    font-size: 15px;
+    color: #475569;
+    line-height: 1.6;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .faq-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .faq-title {
+        font-size: 28px;
+    }
+}
+
+
+/* Footer section */
+
+
+footer {
+    background-color: #0D1B2A;
+}
+
+.footer {
+    max-width: 1431px;
+    padding: 40px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.footer p {
+    font-size: 16;
+    color: white;
+    opacity: 40%;
+    font-weight: 300;
+}
+
+.footer ul {
+    display: flex;
+    gap: 20px;
+}
+
+.footer ul li {
+
+    list-style: none;
+
+
+}
+
+.footer ul li a {
+    font-size: 16;
+    color: white;
+    opacity: 40%;
+    font-weight: 300;
+
+    text-decoration: none;
+
 }
