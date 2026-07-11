@@ -71,11 +71,16 @@ header {
 
 .hero-container {
     background-image: url(./assets/banner.jpg);
+
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: multiply;
+    background-size: cover;
+
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 786px;
-    padding: 90px 0px;
+    height: 586px;
+    padding: 100px 0px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -108,7 +113,7 @@ header {
 .registration-btn a {
     text-decoration: none;
     color: white;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
     font-size: 24px;
 }
 
